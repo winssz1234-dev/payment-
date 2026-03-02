@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ชำระเงิน | Apex Efootball shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-gold: #d4af37;
+            --dark-bg: #0a0a0b;
+            --card-bg: #1a1a1c;
+            --text-gray: #a0a0a0;
+        }
+
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: var(--dark-bg);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            max-width: 600px;
+            width: 100%;
+            background: var(--card-bg);
+            border-radius: 24px;
+            border: 1px solid #333;
+            padding: 40px 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            text-align: center;
+        }
+
+        h1 { color: var(--primary-gold); font-size: 28px; margin-bottom: 5px; }
+        .subtitle { color: var(--text-gray); font-weight: 300; margin-bottom: 30px; }
+
+        .qr-section {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+        }
+        .qr-image {
+            width: 100%;
+            max-width: 380px; /* ขยายขนาดใหญ่พิเศษตามต้องการ */
+            display: block;
+        }
+
+        .account-name { font-size: 24px; font-weight: 600; margin-top: 10px; color: white; }
+
+        .contract-section {
+            text-align: left;
+            background: rgba(255,255,255,0.03);
+            padding: 25px;
+            border-radius: 15px;
+            border-top: 3px solid var(--primary-gold);
+            margin-top: 20px;
+        }
+        .contract-section h3 {
+            color: var(--primary-gold);
+            font-size: 18px;
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+        .contract-item {
+            margin-bottom: 20px;
+            font-size: 14px;
+            line-height: 1.7;
+            color: #e0e0e0;
+        }
+        .contract-item b { color: var(--primary-gold); display: block; margin-bottom: 5px; }
+
+        footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: var(--text-gray);
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>Apex Efootball shop</h1>
+    <div class="subtitle">ระบบชำระเงินและข้อตกลงการซื้อขาย</div>
+
+    <div class="qr-section">
+        <img src="1000007658.png" alt="QR Payment" class="qr-image">
+    </div>
+
+    <div class="account-name">ธนกฤต ประมุข</div>
+    <div style="color: var(--primary-gold); margin-bottom: 30px;">Thai QR Payment / พร้อมเพย์</div>
+
+    <div class="contract-section">
+        <h3>📜 รายละเอียดสัญญาซื้อขาย</h3>
+
+        <div class="contract-item">
+            <b>1. การกระทำอันก่อให้เกิดความเสียหายหรือกรณีการผิดนัดชำระเงิน</b>
+            ในกรณีที่ผู้ซื้อทำการจองรหัส แต่ไม่ชำระเงินภายในระยะเวลาที่กำหนด หรือแสดงเจตนาไม่ชำระเงินภายหลังการตกลงซื้อขาย ผู้ขายมีสิทธิ์ยกเลิกการจองทันที และเรียกร้องค่าเสียหายตามที่เกิดขึ้นจริง หากมีการนำรหัสไปใช้โดยมิชอบ เช่น การแชร์ต่อ จำหน่ายต่อ หรือกระทำการใดที่ขัดต่อข้อตกลง ผู้ขายมีสิทธิ์ระงับการใช้งาน และดำเนินการตามกฎหมายเพื่อคุ้มครองสิทธิของตน
+        </div>
+
+        <div class="contract-item">
+            <b>2. การพิจารณาตัดสินใจสั่งซื้อสินค้า</b>
+            ลูกค้าตกลงศึกษารายละเอียดสินค้า ราคา คุณสมบัติ เงื่อนไขการจัดส่ง และข้อกำหนดต่าง ๆ ให้ครบถ้วนก่อนทำการสั่งซื้อ การยืนยันคำสั่งซื้อถือว่าลูกค้าได้ตรวจสอบข้อมูลโดยรอบคอบแล้ว และยอมรับเงื่อนไขทั้งหมดโดยไม่มีข้อโต้แย้งภายหลัง
+        </div>
+
+        <div class="contract-item">
+            <b>3. เงื่อนไขการชำระเงินและการไม่รับคืนสินค้า</b>
+            เมื่อมีการชำระเงินเรียบร้อยแล้ว ไม่ว่าส่วนหนึ่งส่วนใดหรือเต็มจำนวน จะไม่สามารถขอคืนเงิน ยกเลิก หรือเปลี่ยนแปลงคำสั่งซื้อได้ทุกกรณี ยกเว้นกรณีที่เกิดจากความผิดพลาดของผู้ขายโดยตรงเท่านั้น
+        </div>
+
+        <div class="contract-item">
+            <b>4. การยืนยันคำสั่งซื้อ</b>
+            คำสั่งซื้อจะถือว่าสมบูรณ์และมีผลผูกพันทันทีเมื่อผู้ซื้อทำการยืนยันและ/หรือชำระเงินแล้ว ผู้ซื้อไม่สามารถปฏิเสธการรับสินค้า หรือปฏิเสธการชำระเงินภายหลังได้ หากฝ่าฝืน ผู้ขายมีสิทธิ์ดำเนินการตามกฎหมายเพื่อเรียกร้องค่าเสียหาย
+        </div>
+
+        <div class="contract-item">
+            <b>7. การเปลี่ยนแปลงเงื่อนไขซื้อขาย</b>
+            ผู้ขายขอสงวนสิทธิ์ในการแก้ไข เปลี่ยนแปลง หรือเพิ่มเติมเงื่อนไขการซื้อขายได้ตามความเหมาะสม โดยจะแจ้งให้ทราบผ่านช่องทางที่กำหนด และให้ถือว่าผู้ซื้อยอมรับเงื่อนไขใหม่ทันทีเมื่อมีการสั่งซื้อครั้งถัดไป
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Apex Efootball shop. All Rights Reserved.
+    </footer>
+</div>
+
+</body>
+</html>
